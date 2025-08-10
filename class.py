@@ -12,3 +12,16 @@ green_bike = Bike("Green", "Metal")
 
 print(red_bike.color)
 green_bike.brake()
+
+class Animal:
+    def __init__(self, number_of_legs, color):
+        self.number_of_legs = number_of_legs
+        self.color = color
+
+    def make_sound(self):
+        print("This is the noise I'm making....")
+
+cat = Animal(4, "Grey")
+
+print(cat.color)
+cat.make_sound()
