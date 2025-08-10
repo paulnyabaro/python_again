@@ -11,4 +11,4 @@ red_bike = Bike("Yellow", "Carbon Fibre")
 green_bike = Bike("Green", "Metal")
 
 print(red_bike.color)
-red_bike.brake()
+green_bike.brake()
