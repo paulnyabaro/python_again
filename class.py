@@ -22,6 +22,7 @@ class Animal:
         print("This is the noise I'm making....")
 
 cat = Animal(4, "Grey")
+dog = Animal(4, "Black")
 
 print(cat.color)
 cat.make_sound()
