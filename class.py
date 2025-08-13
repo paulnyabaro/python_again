@@ -26,3 +26,4 @@ dog = Animal(4, "Black")
 
 print(cat.color)
 cat.make_sound()
+dog.make_sound()
